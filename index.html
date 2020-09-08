@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=., initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body onload="init();">
+    <div class="container">
+        <div class="card">
+            <div class="card-header bg-danger">
+            <h4>Calculadora</h4>
+            <div class="input-group">
+                <span class="col-lg-12 bg-light" id="resultado"></span>
+            </div>
+        </div>
+            <div class="card-body">
+                <div class="row">
+                    <button id="1" class="btn btn-outline-dark col-lg-3 col-md-3">1</button>
+                    <button id="2" class="btn btn-outline-dark col-lg-3 col-md-3">2</button>
+                    <button id="3" class="btn btn-outline-dark col-lg-3 col-md-3">3</button>
+                    <button id="suma" class="btn btn-dark col-lg-3 col-md-3 rounded-pill border">+</button>
+                </div>
+                <div class="row">
+                    <button id="4" class="btn btn-outline-dark col-lg-3 col-md-3">4</button>
+                    <button id="5" class="btn btn-outline-dark col-lg-3 col-md-3">5</button>
+                    <button id="6" class="btn btn-outline-dark col-lg-3 col-md-3">6</button>
+                    <button id="resta" class="btn btn-dark col-lg-3 col-md-3 rounded-pill border">-</button>
+                </div>
+                <div class="row">
+                    <button id="7" class="btn btn-outline-dark col-lg-3 col-md-3">7</button>
+                    <button id="8" class="btn btn-outline-dark col-lg-3 col-md-3">8</button>
+                    <button id="9" class="btn btn-outline-dark col-lg-3 col-md-3">9</button>
+                    <button id="multiplicacion" class="btn btn-dark col-lg-3 col-md-3 rounded-pill border">*</button>
+                </div>
+                <div class="row">
+                    <button id="0" class="btn btn-outline-dark col-lg-3 col-md-3">0</button>
+                    <button id="reset" class="btn btn-dark col-lg-3 col-md-3 rounded-pill border">c</button>
+                    <button id="igual" class="btn btn-dark col-lg-3 col-md-3 rounded-pill border">=</button>
+                    <button id="division" class="btn btn-dark col-lg-3 col-md-3 rounded-pill border">/</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="funciones js/calculadora.js"></script>
+</body>
+</html>
